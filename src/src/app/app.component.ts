@@ -8,7 +8,15 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'electron-test';
 
-  public sendNotification() {
-    alert('ok');
+  public openWindow() {
+    const { BrowserWindow } = (<any>window).require('electron').remote
+    let win = new BrowserWindow({ width: 800, height: 600 })
+    win.setProgressBar(0.5);
+    win.loadURL('https://github.com')
+  }
+
+  public setProgress( perc : number){
+    const { BrowserWindow } = (<any>window).require('electron').remote;
+    BrowserWindow.setProgressBar(perc);
   }
 }
