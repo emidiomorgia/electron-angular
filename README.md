@@ -1,5 +1,7 @@
 # electron-angular
 
+[![Build Status](https://travis-ci.com/emidiomorgia/electron-angular.svg?branch=master)](https://travis-ci.com/emidiomorgia/electron-angular)
+
 electron-angular is a project with the aim of demonstrating the use of electron with an angular front end and debugging the main process and render process. In addition, scripts are prepared to deploy with electron-builder on Windows Mac and Linux.
 It uses Angular 9.x and Typescript, Electron 8.x and Electron-Builder for deploy. 
 
@@ -81,4 +83,5 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 <!-- Markdown link & img dfn's -->
 [wiki]: https://github.com/emidiomorgia/electron-angular/wiki
+
 
