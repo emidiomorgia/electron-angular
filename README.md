@@ -69,7 +69,7 @@ Emidio Morgia – [@emidiomorgia](https://twitter.com/emidiomorgia) – emidio@m
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/yournameemidiomorgia/github-link](https://github.com/dbader/)
+[https://github.com/emidiomorgia/github-link](https://github.com/emidiomorgia/)
 
 ## Contributing
 

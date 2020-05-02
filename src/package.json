@@ -4,7 +4,7 @@
   "main": "main.js",
   "build": {
     "appId": "info.morgia.electron-test",
-    "productName": "Electron Angular Test",
+    "productName": "Electron Angular Template",
     "files": ["**/*", "dist/**/*"],
 
   "directories": {
