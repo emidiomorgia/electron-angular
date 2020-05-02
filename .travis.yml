@@ -1,28 +1,16 @@
 language: node_js
 node_js:
   - lts/*
+dist: trusty
+sudo: required
 
-# Set DISPLAY for Xvfb
-env:
-  - DISPLAY=:99.0
+branches:
+  only:
+    - master
 
-# Use APT Addon to install Chrome
-addons:
-  apt:
-    sources:
-      - google-chrome
-    packages:
-      - google-chrome-stable
+before_script:
+  -cd src
+  - npm install -g @angular/cli
 
-# Start Xvfb so you can run headless Chrome
-before_install:
-  - cd src
-  - sh -e /etc/init.d/xvfb start
-
-# Install packages
-install:
-  - npm install
-
-# Run tests in continuous integration mode
 script:
-  - ng test --watch=false
+  - ng build
