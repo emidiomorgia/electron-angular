@@ -30,6 +30,7 @@
     "build": "ng build --base-href ./",
     "build-prod": "ng build --prod=true --base-href ./",
     "test": "ng test --watch=false",
+    "test-headless": "ng test --watch=false --browsers=ChromeHeadless",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "start:electron": "ng build --base-href ./ && electron .",
