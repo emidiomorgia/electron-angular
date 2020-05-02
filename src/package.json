@@ -5,16 +5,15 @@
   "build": {
     "appId": "info.morgia.electron-test",
     "productName": "Electron Angular Test",
-    "files": [
-      "**/*",
-      "dist/**/*"
-    ],
-    "directories": {
+    "files": ["**/*", "dist/**/*"],
+
+  "directories": {
       "output": "release",
       "buildResources": "dist"
     },
-    "asar": false,
+    "asar":false,
     "win": {
+
       "target": [
         "nsis"
       ]
@@ -42,12 +41,10 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.3",
-    "@angular/cdk": "^9.2.2",
     "@angular/common": "~9.1.3",
     "@angular/compiler": "~9.1.3",
     "@angular/core": "~9.1.3",
     "@angular/forms": "~9.1.3",
-    "@angular/material": "^9.2.2",
     "@angular/platform-browser": "~9.1.3",
     "@angular/platform-browser-dynamic": "~9.1.3",
     "@angular/router": "~9.1.3",
