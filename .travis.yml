@@ -9,7 +9,7 @@ branches:
     - master
 
 before_script:
-  -cd src
+  - cd src
   - npm install -g @angular/cli
 
 script:
